@@ -1,0 +1,131 @@
+name: "FloodSathi tester feedback · পৰীক্ষকৰ মতামত"
+description: "Share an idea, usability concern, translation issue, or problem found while testing."
+title: "[Feedback]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for testing FloodSathi. Your feedback will help us make community flood coordination simpler, safer, and more useful.
+
+        FloodSathi পৰীক্ষা কৰাৰ বাবে ধন্যবাদ। আপোনাৰ মতামতে এপটো অধিক সহজ, সুৰক্ষিত আৰু উপযোগী কৰাত সহায় কৰিব।
+
+        **Privacy:** Do not include phone numbers, exact addresses, private request links, recovery links, medical records, or other personal information.
+
+  - type: dropdown
+    id: feedback_type
+    attributes:
+      label: "Feedback type · মতামতৰ ধৰণ"
+      options:
+        - Problem or bug
+        - Usability or confusing flow
+        - Assamese translation
+        - English text
+        - Accessibility
+        - Privacy or safety
+        - Feature suggestion
+        - Weather or map information
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: user_role
+    attributes:
+      label: "How were you testing? · আপুনি কেনেকৈ পৰীক্ষা কৰিছিল?"
+      options:
+        - Requester / সহায় বিচৰা ব্যক্তি
+        - Responder / সহায় আগবঢ়োৱা ব্যক্তি
+        - General visitor / সাধাৰণ দৰ্শক
+        - Both requester and responder / দুয়োটা
+    validations:
+      required: true
+
+  - type: dropdown
+    id: page
+    attributes:
+      label: "Page or feature · পৃষ্ঠা বা সুবিধা"
+      options:
+        - Homepage and language selection
+        - Request help form
+        - Location and map
+        - Community request feed
+        - Offer help form
+        - Requester offer review
+        - Responder waiting page
+        - Private coordination
+        - Weather information
+        - WhatsApp link saving
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: feedback
+    attributes:
+      label: "What happened or what should improve? · কি হৈছিল বা কি উন্নত কৰিব লাগে?"
+      description: "Please be specific. You may write in English or Assamese."
+      placeholder: "Tell us what you expected, what happened, and what would make it better."
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: "Steps to reproduce · পুনৰ ঘটাবলৈ পদক্ষেপ"
+      description: "For a problem, list the actions that caused it. Do not paste a private case link."
+      placeholder: |
+        1. Opened...
+        2. Selected...
+        3. Saw...
+
+  - type: dropdown
+    id: impact
+    attributes:
+      label: "Impact · প্ৰভাৱ"
+      options:
+        - Critical — safety, privacy, or unable to use
+        - High — important task cannot be completed
+        - Medium — task is difficult but possible
+        - Low — wording, appearance, or minor suggestion
+        - Not sure
+    validations:
+      required: true
+
+  - type: input
+    id: device
+    attributes:
+      label: "Device and browser · ডিভাইচ আৰু ব্ৰাউজাৰ"
+      description: "Example: Android phone, Chrome. Do not provide device identifiers."
+      placeholder: "Android / iPhone / laptop; Chrome / Safari / Firefox"
+
+  - type: dropdown
+    id: language
+    attributes:
+      label: "Language used · ব্যৱহাৰ কৰা ভাষা"
+      options:
+        - Assamese
+        - English
+        - Both
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: "Suggested solution · আপোনাৰ পৰামৰ্শ"
+      description: "Optional: tell us how you would improve it."
+
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: "Privacy confirmation · গোপনীয়তা নিশ্চিতকৰণ"
+      options:
+        - label: "I confirm that this report contains no phone number, exact address, private link, medical record, or other personal information."
+          required: true
+
+  - type: checkboxes
+    id: follow_up
+    attributes:
+      label: "Follow-up · পৰৱৰ্তী যোগাযোগ"
+      options:
+        - label: "The FloodSathi team may ask follow-up questions on this GitHub issue."
