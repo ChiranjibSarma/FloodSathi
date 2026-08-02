@@ -1,0 +1,20 @@
+export const districts = [
+  {en:"Baksa",as:"বাক্সা"}, {en:"Barpeta",as:"বৰপেটা"},
+  {en:"Biswanath",as:"বিশ্বনাথ"}, {en:"Bongaigaon",as:"বঙাইগাঁও"},
+  {en:"Bajali",as:"বজালী"}, {en:"Cachar",as:"কাছাৰ"},
+  {en:"Charaideo",as:"চৰাইদেউ"}, {en:"Chirang",as:"চিৰাং"},
+  {en:"Darrang",as:"দৰং"}, {en:"Dhemaji",as:"ধেমাজি"},
+  {en:"Dhubri",as:"ধুবুৰী"}, {en:"Dibrugarh",as:"ডিব্ৰুগড়"},
+  {en:"Dima Hasao",as:"ডিমা হাছাও"}, {en:"Goalpara",as:"গোৱালপাৰা"},
+  {en:"Golaghat",as:"গোলাঘাট"}, {en:"Hailakandi",as:"হাইলাকান্দি"},
+  {en:"Hojai",as:"হোজাই"}, {en:"Jorhat",as:"যোৰহাট"},
+  {en:"Kamrup",as:"কামৰূপ"}, {en:"Kamrup Metropolitan",as:"কামৰূপ মহানগৰ"},
+  {en:"Karbi Anglong",as:"কাৰ্বি আংলং"}, {en:"Karimganj",as:"কৰিমগঞ্জ"},
+  {en:"Kokrajhar",as:"কোকৰাঝাৰ"}, {en:"Lakhimpur",as:"লক্ষীমপুৰ"},
+  {en:"Majuli",as:"মাজুলী"}, {en:"Morigaon",as:"মৰিগাঁও"},
+  {en:"Nagaon",as:"নগাঁও"}, {en:"Nalbari",as:"নলবাৰী"},
+  {en:"Sivasagar",as:"শিৱসাগৰ"}, {en:"Sonitpur",as:"শোণিতপুৰ"},
+  {en:"South Salmara-Mancachar",as:"দক্ষিণ শালমাৰা-মানকাচৰ"},
+  {en:"Tinsukia",as:"তিনিচুকীয়া"}, {en:"Tamulpur",as:"তামুলপুৰ"},
+  {en:"Udalguri",as:"ওদালগুৰি"}, {en:"West Karbi Anglong",as:"পশ্চিম কাৰ্বি আংলং"}
+] as const;

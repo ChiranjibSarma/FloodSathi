@@ -1,0 +1,2 @@
+import {describe,expect,it} from "vitest";import {messages} from "../src/lib/i18n";
+describe("translations",()=>{it("has identical Assamese and English keys",()=>expect(Object.keys(messages["as-IN"]).sort()).toEqual(Object.keys(messages["en-IN"]).sort()));it("marks unreviewed emergency Assamese",()=>expect(messages["as-IN"].emergencyNotice).toContain("REQUIRES_NATIVE_ASSAMESE_REVIEW"));it("renders Assamese Unicode",()=>expect(messages["as-IN"].requestHelp).toMatch(/[\u0980-\u09ff]/))});

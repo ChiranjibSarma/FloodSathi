@@ -1,0 +1,2 @@
+import {HelpRequestForm} from "@/components/help-request-form";
+export default function RequestHelp(){return <div className="container stack"><div><h1>কি সহায়ৰ প্ৰয়োজন? · Request help</h1><p>Your information is used only for relief coordination.</p></div><aside className="notice">FloodSathi Assam is not a replacement for official emergency services. Submission does not guarantee immediate rescue.</aside><HelpRequestForm/></div>}

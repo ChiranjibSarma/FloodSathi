@@ -1,0 +1,3 @@
+# Controlled pilot runbook
+
+Start with one fictional tabletop exercise, then one authorised district and a small verified NGO cohort. Appoint incident lead, privacy lead, Assamese reviewer and on-call engineer. Verify emergency contacts, RLS, volunteer suspension, provider fallback, backups and manual paper/phone continuity. Cap intake volume; never promise rescue; hold twice-daily review of unassigned P0 cases. Stop the pilot for cross-tenant disclosure, inaccessible urgent intake, corrupted status history, provider text shown as authoritative, or loss of manual fallback. Conduct an after-action review before expansion.

@@ -1,0 +1,1 @@
+import {test,expect} from "@playwright/test";test("citizen can open Assamese-first intake and privacy-safe tracking",async({page})=>{await page.goto("/request-help");await expect(page.getByRole("heading",{name:/Request help/})).toBeVisible();await page.goto("/track/demo");await expect(page.getByText(/No exact location/)).toBeVisible()});

@@ -1,0 +1,3 @@
+import type { NextConfig } from "next";
+const config: NextConfig = {reactStrictMode:true,poweredByHeader:false,typedRoutes:true,async headers(){return [{source:"/(.*)",headers:[{key:"X-Content-Type-Options",value:"nosniff"},{key:"X-Frame-Options",value:"DENY"},{key:"Referrer-Policy",value:"strict-origin-when-cross-origin"},{key:"Permissions-Policy",value:"camera=(), geolocation=(self), microphone=(self)"},{key:"Content-Security-Policy",value:"default-src 'self'; img-src 'self' blob: data:; media-src 'self' blob:; connect-src 'self' https://*.supabase.co; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'"}]}]}};
+export default config;
